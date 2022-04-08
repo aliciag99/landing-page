@@ -1,0 +1,115 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: whitesmoke;
+}
+h1 {
+  color: whitesmoke;
+}
+.cross-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+}
+.carousel-inner {
+  height: 400px;
+  width: 600px;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.listado {
+  justify-content: center;
+  text-align: left;
+}
+nav {
+  height: 80px;
+}
+.roadmap-title {
+  height: 80px;
+  background-color: #212529;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0px;
+}
+h5 {
+  margin: 20px 0 15px 12px;
+}
+.opciones {
+  list-style-type: circle;
+  line-height: 35px;
+}
+footer {
+  background-color: #212529;
+  color: #9b9d9e;
+  height: 135px;
+  font-size: 15px;
+  line-height: 15px;
+  margin-top: 50px;
+}
+.caja-boton {
+  display: flex;
+  justify-content: center;
+}
+.boton {
+  background-color: #212529;
+  color: whitesmoke;
+  border: whitesmoke;
+  border-radius: 5%;
+  height: 45px;
+  width: 90px;
+  text-align: center;
+}
+.roadmap {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.espacio {
+  height: 300px;
+}
+.caja-desplegable {
+  display: none;
+  position: absolute;
+  min-width: 60vw;
+  height: 300px;
+  overflow: auto;
+  background-color: #9fa4a8;
+  border-radius: 30px;
+  margin-top: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hitos {
+  list-style-type: none;
+  text-align: left;
+  margin-top: 2vh;
+  margin-left: 8vw;
+  line-height: 32px;
+}
+span {
+  font-weight: 700;
+  color: #212529;
+}
+.quarter {
+  margin-left: 2vw;
+}
+.mostrar {
+  display: block;
+}
+.rrss {
+  margin-bottom: 20px;
+  text-align: center;
+}
+img {
+  margin: 0;
+  width: 180px;
+}
